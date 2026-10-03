@@ -65,7 +65,7 @@ const CONFIG = {
   glow: false,          // shadowBlur glows are very slow on canvas: off = same shapes, no soft halo
   maxDpr: 2,            // cap on canvas pixel density (phones report 3+; 2 looks the same but draws ~45% fewer pixels)
   supabase: { url: 'https://coirjxgwejtcojpzllqk.supabase.co', key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNvaXJqeGd3ZWp0Y29qcHpsbHFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA3MzY0MDAsImV4cCI6MjEwNjMxMjQwMH0.VM4Pn_7tXwMaSgPuOGfOSXtSk-mJ52o8Ay-a7BHaqPc' },   // paste your Supabase Project URL + anon (public) key. Empty = local test mode (same browser, two tabs)
-  ws: { url: '' },   // PASTE YOUR CLOUDFLARE WORKER ADDRESS HERE, e.g. 'wss://gimmick-server.YOURNAME.workers.dev'. Empty = old Supabase / two-tab test mode
+  ws: { url: 'wss://gimmick-game.onrender.com' }   // PASTE YOUR CLOUDFLARE WORKER ADDRESS HERE, e.g. 'wss://gimmick-server.YOURNAME.workers.dev'. Empty = old Supabase / two-tab test mode
   sendRate: 12,                     // position messages per second
   maxPlayers: 4
 };
